@@ -4,17 +4,17 @@
 
 /.vs
 /NirojTemplate.Library/.vs
-/NirojTemplate.Library/src/NirojTemplate.Library.Application/bin/Debug/net6.0
+/NirojTemplate.Library/src/NirojTemplate.Library.Application/bin
 /NirojTemplate.Library/src/NirojTemplate.Library.Application/obj
-/NirojTemplate.Library/src/NirojTemplate.Library.Domain/bin/Debug/net6.0
+/NirojTemplate.Library/src/NirojTemplate.Library.Domain/bin
 /NirojTemplate.Library/src/NirojTemplate.Library.Domain/obj
-/NirojTemplate.Library/src/NirojTemplate.Library.Infrastructure/bin/Debug/net6.0
+/NirojTemplate.Library/src/NirojTemplate.Library.Infrastructure/bin
 /NirojTemplate.Library/src/NirojTemplate.Library.Infrastructure/obj
-/NirojTemplate.Library/tests/NirojTemplate.Library.Application.FunctionalTests/bin/Debug/net6.0
+/NirojTemplate.Library/tests/NirojTemplate.Library.Application.FunctionalTests/bin
 /NirojTemplate.Library/tests/NirojTemplate.Library.Application.FunctionalTests/obj
-/NirojTemplate.Library/tests/NirojTemplate.Library.Application.UnitTests/bin/Debug/net6.0
+/NirojTemplate.Library/tests/NirojTemplate.Library.Application.UnitTests/bin
 /NirojTemplate.Library/tests/NirojTemplate.Library.Application.UnitTests/obj
-/NirojTemplate.Library/tests/NirojTemplate.Library.Domain.UnitTests/bin/Debug/net6.0
+/NirojTemplate.Library/tests/NirojTemplate.Library.Domain.UnitTests/bin
 /NirojTemplate.Library/tests/NirojTemplate.Library.Domain.UnitTests/obj
-/NirojTemplate.Library/tests/NirojTemplate.Library.Infrastructure.IntegrationTests/bin/Debug/net6.0
+/NirojTemplate.Library/tests/NirojTemplate.Library.Infrastructure.IntegrationTests/bin
 /NirojTemplate.Library/tests/NirojTemplate.Library.Infrastructure.IntegrationTests/obj
