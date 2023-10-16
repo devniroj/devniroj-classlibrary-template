@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NirojTemplate.Library</id>
+    <version>1.0.1</version>
+    <title>ASP.NET Core Template</title>
+    <authors>DevNiroj</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <projectUrl>https://github.com/devniroj/devniroj-classlibrary-template</projectUrl>
+    <description>A ready-to-use template for ASP.NET Core with repositories, services, models mapping, DI and StyleCop warnings fixed.</description>
+    <copyright>DevNiroj © 2020</copyright>
+    <tags>c# asp.net core template web</tags>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+    <repository type="git" url="https://github.com/devniroj/devniroj-classlibrary-template" />
+    <dependencies>
+      <group targetFramework="net6.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\snero\source\repos\devniroj-classlibrary-template\NirojTemplate.Library\.template.config\template.json" target="content\NirojTemplate.Library\.template.config\template.json" />
+    <file src="C:\Users\snero\source\repos\devniroj-classlibrary-template\NirojTemplate.Library\.vs\NirojCleanArchitectureLibraryTemplate\FileContentIndex\09a407c1-6b3a-4dde-b617-125c7fe9a5b2.vsidx" target="content\NirojTemplate.Library\.vs\NirojCleanArchitectureLibraryTemplate\FileContentIndex\09a407c1-6b3a-4dde-b617-125c7fe9a5b2.vsidx" />
+    <file src="C:\Users\snero\source\repos\devniroj-classlibrary-template\NirojTemplate.Library\.vs\NirojCleanArchitectureLibraryTemplate\FileContentIndex\413b990a-b307-4fd1-96ad-c11ce85d89b3.vsidx" target="content\NirojTemplate.Library\.vs\NirojCleanArchitectureLibraryTemplate\FileContentIndex\413b990a-b307-4fd1-96ad-c11ce85d89b3.vsidx" />
+    <file src="C:\Users\snero\source\repos\devniroj-classlibrary-template\NirojTemplate.Library\.vs\NirojCleanArchitectureLibraryTemplate\FileContentIndex\6eacfd76-6348-4248-8cf8-f87137b96733.vsidx" target="content\NirojTemplate.Library\.vs\NirojCleanArchitectureLibraryTemplate\FileContentIndex\6eacfd76-6348-4248-8cf8-f87137b96733.vsidx" />
+    <file src="C:\Users\snero\source\repos\devniroj-classlibrary-template\NirojTemplate.Library\.vs\NirojCleanArchitectureLibraryTemplate\FileContentIndex\99bab70f-52ee-44a3-9190-bdde2b90ce8a.vsidx" target="content\NirojTemplate.Library\.vs\NirojCleanArchitectureLibraryTemplate\FileContentIndex\99bab70f-52ee-44a3-9190-bdde2b90ce8a.vsidx" />
+    <file src="C:\Users\snero\source\repos\devniroj-classlibrary-template\NirojTemplate.Library\.vs\NirojCleanArchitectureLibraryTemplate\FileContentIndex\de3e79aa-20ce-4cbe-8fac-21c3fa69e80d.vsidx" target="content\NirojTemplate.Library\.vs\NirojCleanArchitectureLibraryTemplate\FileContentIndex\de3e79aa-20ce-4cbe-8fac-21c3fa69e80d.vsidx" />
+    <file src="C:\Users\snero\source\repos\devniroj-classlibrary-template\NirojTemplate.Library\.vs\NirojTemplate.Library\DesignTimeBuild\.dtbcache.v2" target="content\NirojTemplate.Library\.vs\NirojTemplate.Library\DesignTimeBuild\.dtbcache.v2" />
+    <file src="C:\Users\snero\source\repos\devniroj-classlibrary-template\NirojTemplate.Library\.vs\NirojTemplate.Library\FileContentIndex\07ae6376-1656-4c72-ac48-5ce33ff97e0c.vsidx" target="content\NirojTemplate.Library\.vs\NirojTemplate.Library\FileContentIndex\07ae6376-1656-4c72-ac48-5ce33ff97e0c.vsidx" />
+    <file src="C:\Users\snero\source\repos\devniroj-classlibrary-template\NirojTemplate.Library\.vs\NirojTemplate.Library\FileContentIndex\2d969333-7c38-45fd-8138-15699adf1bff.vsidx" target="content\NirojTemplate.Library\.vs\NirojTemplate.Library\FileContentIndex\2d969333-7c38-45fd-8138-15699adf1bff.vsidx" />
+    <file src="C:\Users\snero\source\repos\devniroj-classlibrary-template\NirojTemplate.Library\.vs\NirojTemplate.Library\FileContentIndex\43048fb9-4728-4ed1-b66b-3f48e43dbd92.vsidx" target="content\NirojTemplate.Library\.vs\NirojTemplate.Library\FileContentIndex\43048fb9-4728-4ed1-b66b-3f48e43dbd92.vsidx" />
+    <file src="C:\Users\snero\source\repos\devniroj-classlibrary-template\NirojTemplate.Library\.vs\NirojTemplate.Library\FileContentIndex\5ca9660b-99c9-4e9f-8d05-588293a484df.vsidx" target="content\NirojTemplate.Library\.vs\NirojTemplate.Library\FileContentIndex\5ca9660b-99c9-4e9f-8d05-588293a484df.vsidx" />
+    <file src="C:\Users\snero\source\repos\devniroj-classlibrary-template\NirojTemplate.Library\.vs\NirojTemplate.Library\FileContentIndex\c8e59bfb-6b50-4561-8083-5f748227014b.vsidx" target="content\NirojTemplate.Library\.vs\NirojTemplate.Library\FileContentIndex\c8e59bfb-6b50-4561-8083-5f748227014b.vsidx" />
+    <file src="C:\Users\snero\source\repos\devniroj-classlibrary-template\NirojTemplate.Library\.vs\NirojTemplate.Library\v17\.futdcache.v2" target="content\NirojTemplate.Library\.vs\NirojTemplate.Library\v17\.futdcache.v2" />
+    <file src="C:\Users\snero\source\repos\devniroj-classlibrary-template\NirojTemplate.Library\.vs\NirojTemplate.Library\v17\.suo" target="content\NirojTemplate.Library\.vs\NirojTemplate.Library\v17\.suo" />
+    <file src="C:\Users\snero\source\repos\devniroj-classlibrary-template\NirojTemplate.Library\.vs\ProjectEvaluation\nirojtemplate.library.metadata.v7.bin" target="content\NirojTemplate.Library\.vs\ProjectEvaluation\nirojtemplate.library.metadata.v7.bin" />
+    <file src="C:\Users\snero\source\repos\devniroj-classlibrary-template\NirojTemplate.Library\.vs\ProjectEvaluation\nirojtemplate.library.projects.v7.bin" target="content\NirojTemplate.Library\.vs\ProjectEvaluation\nirojtemplate.library.projects.v7.bin" />
+    <file src="C:\Users\snero\source\repos\devniroj-classlibrary-template\NirojTemplate.Library\NirojTemplate.Library.sln" target="content\NirojTemplate.Library\NirojTemplate.Library.sln" />
+    <file src="C:\Users\snero\source\repos\devniroj-classlibrary-template\NirojTemplate.Library\src\NirojTemplate.Library.Application\Class1.cs" target="content\NirojTemplate.Library\src\NirojTemplate.Library.Application\Class1.cs" />
+    <file src="C:\Users\snero\source\repos\devniroj-classlibrary-template\NirojTemplate.Library\src\NirojTemplate.Library.Application\NirojTemplate.Library.Application.csproj" target="content\NirojTemplate.Library\src\NirojTemplate.Library.Application\NirojTemplate.Library.Application.csproj" />
+    <file src="C:\Users\snero\source\repos\devniroj-classlibrary-template\NirojTemplate.Library\src\NirojTemplate.Library.Domain\Class1.cs" target="content\NirojTemplate.Library\src\NirojTemplate.Library.Domain\Class1.cs" />
+    <file src="C:\Users\snero\source\repos\devniroj-classlibrary-template\NirojTemplate.Library\src\NirojTemplate.Library.Domain\NirojTemplate.Library.Domain.csproj" target="content\NirojTemplate.Library\src\NirojTemplate.Library.Domain\NirojTemplate.Library.Domain.csproj" />
+    <file src="C:\Users\snero\source\repos\devniroj-classlibrary-template\NirojTemplate.Library\src\NirojTemplate.Library.Infrastructure\Class1.cs" target="content\NirojTemplate.Library\src\NirojTemplate.Library.Infrastructure\Class1.cs" />
+    <file src="C:\Users\snero\source\repos\devniroj-classlibrary-template\NirojTemplate.Library\src\NirojTemplate.Library.Infrastructure\NirojTemplate.Library.Infrastructure.csproj" target="content\NirojTemplate.Library\src\NirojTemplate.Library.Infrastructure\NirojTemplate.Library.Infrastructure.csproj" />
+    <file src="C:\Users\snero\source\repos\devniroj-classlibrary-template\NirojTemplate.Library\tests\NirojTemplate.Library.Application.FunctionalTests\GlobalUsings.cs" target="content\NirojTemplate.Library\tests\NirojTemplate.Library.Application.FunctionalTests\GlobalUsings.cs" />
+    <file src="C:\Users\snero\source\repos\devniroj-classlibrary-template\NirojTemplate.Library\tests\NirojTemplate.Library.Application.FunctionalTests\NirojTemplate.Library.Application.FunctionalTests.csproj" target="content\NirojTemplate.Library\tests\NirojTemplate.Library.Application.FunctionalTests\NirojTemplate.Library.Application.FunctionalTests.csproj" />
+    <file src="C:\Users\snero\source\repos\devniroj-classlibrary-template\NirojTemplate.Library\tests\NirojTemplate.Library.Application.FunctionalTests\UnitTest1.cs" target="content\NirojTemplate.Library\tests\NirojTemplate.Library.Application.FunctionalTests\UnitTest1.cs" />
+    <file src="C:\Users\snero\source\repos\devniroj-classlibrary-template\NirojTemplate.Library\tests\NirojTemplate.Library.Application.UnitTests\GlobalUsings.cs" target="content\NirojTemplate.Library\tests\NirojTemplate.Library.Application.UnitTests\GlobalUsings.cs" />
+    <file src="C:\Users\snero\source\repos\devniroj-classlibrary-template\NirojTemplate.Library\tests\NirojTemplate.Library.Application.UnitTests\NirojTemplate.Library.Application.UnitTests.csproj" target="content\NirojTemplate.Library\tests\NirojTemplate.Library.Application.UnitTests\NirojTemplate.Library.Application.UnitTests.csproj" />
+    <file src="C:\Users\snero\source\repos\devniroj-classlibrary-template\NirojTemplate.Library\tests\NirojTemplate.Library.Application.UnitTests\UnitTest1.cs" target="content\NirojTemplate.Library\tests\NirojTemplate.Library.Application.UnitTests\UnitTest1.cs" />
+    <file src="C:\Users\snero\source\repos\devniroj-classlibrary-template\NirojTemplate.Library\tests\NirojTemplate.Library.Domain.UnitTests\GlobalUsings.cs" target="content\NirojTemplate.Library\tests\NirojTemplate.Library.Domain.UnitTests\GlobalUsings.cs" />
+    <file src="C:\Users\snero\source\repos\devniroj-classlibrary-template\NirojTemplate.Library\tests\NirojTemplate.Library.Domain.UnitTests\NirojTemplate.Library.Domain.UnitTests.csproj" target="content\NirojTemplate.Library\tests\NirojTemplate.Library.Domain.UnitTests\NirojTemplate.Library.Domain.UnitTests.csproj" />
+    <file src="C:\Users\snero\source\repos\devniroj-classlibrary-template\NirojTemplate.Library\tests\NirojTemplate.Library.Domain.UnitTests\UnitTest1.cs" target="content\NirojTemplate.Library\tests\NirojTemplate.Library.Domain.UnitTests\UnitTest1.cs" />
+    <file src="C:\Users\snero\source\repos\devniroj-classlibrary-template\NirojTemplate.Library\tests\NirojTemplate.Library.Infrastructure.IntegrationTests\GlobalUsings.cs" target="content\NirojTemplate.Library\tests\NirojTemplate.Library.Infrastructure.IntegrationTests\GlobalUsings.cs" />
+    <file src="C:\Users\snero\source\repos\devniroj-classlibrary-template\NirojTemplate.Library\tests\NirojTemplate.Library.Infrastructure.IntegrationTests\NirojTemplate.Library.Infrastructure.IntegrationTests.csproj" target="content\NirojTemplate.Library\tests\NirojTemplate.Library.Infrastructure.IntegrationTests\NirojTemplate.Library.Infrastructure.IntegrationTests.csproj" />
+    <file src="C:\Users\snero\source\repos\devniroj-classlibrary-template\NirojTemplate.Library\tests\NirojTemplate.Library.Infrastructure.IntegrationTests\UnitTest1.cs" target="content\NirojTemplate.Library\tests\NirojTemplate.Library.Infrastructure.IntegrationTests\UnitTest1.cs" />
+  </files>
+</package>

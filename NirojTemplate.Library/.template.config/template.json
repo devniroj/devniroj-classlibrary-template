@@ -2,39 +2,14 @@
     "$schema": "http://json.schemastore.org/template",
     "author": "Niroj",
     "classifications": [
-        "AspNetCore",
-        "Console",
-        "Solution",
-        ".net6",
-        "library",
-        "CleanArchitecture"
+        "library"
     ],
     "tags": {
         "language": "C#",
-        "type": "solution"
+        "type": "project"
     },
     "identity": "DevNiroj.CleanArchitecture.Template.Library",
     "name": ".Net 6 clean architecture class library template",
-    "shortName": "nirojcalibrarytemplate",
-    "sourceName": "AspNetCoreTemplate",
-    "symbols": {
-        "skipRestore": {
-            "type": "parameter",
-            "datatype": "bool",
-            "description": "If specified, skips the automatic restore of the project on create.",
-            "defaultValue": "false"
-        }
-    },
-    "sources": [
-        {
-            "modifiers": [
-                {
-                    "exclude": [
-                        "src/.vs/**",
-                        ".template_config/**"
-                    ]
-                }
-            ]
-        }
-    ]
+    "shortName": "nirojlib",
+    "sourceName": "NirojTemplate.Library"
 }

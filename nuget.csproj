@@ -11,15 +11,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="src\**\*" Exclude="**\bin\**\*;**\obj\**\*" />
-    <Content Include="tests\**\*" Exclude="**\bin\**\*;**\obj\**\*" />
-    <Compile Remove="**\*" />
+    <Content Include="NirojTemplate.Library\**" Exclude="**\bin\**\*;**\obj\**\*" />
   </ItemGroup>
+  
 
   <PropertyGroup>
     <PackageType>Template</PackageType>
     <Version>1.0.1</Version>
-    <PackageId>AspNetCoreTemplate</PackageId>
+    <PackageId>NirojTemplate.Library</PackageId>
     <Title>ASP.NET Core Template</Title>
     <Company>DevNiroj</Company>
     <Authors>DevNiroj</Authors>
