@@ -13,7 +13,6 @@
   <ItemGroup>
     <Content Include="NirojTemplate.Library\**" Exclude="**\bin\**\*;**\obj\**\*" />
   </ItemGroup>
-  
 
   <PropertyGroup>
     <PackageType>Template</PackageType>

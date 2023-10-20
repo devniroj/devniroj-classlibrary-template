@@ -6,7 +6,7 @@
     ],
     "tags": {
         "language": "C#",
-        "type": "project"
+        "type": "solution"
     },
     "identity": "DevNiroj.CleanArchitecture.Template.Library",
     "name": ".Net 6 clean architecture class library template",
