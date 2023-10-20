@@ -18,3 +18,5 @@
 /NirojTemplate.Library/tests/NirojTemplate.Library.Domain.UnitTests/obj
 /NirojTemplate.Library/tests/NirojTemplate.Library.Infrastructure.IntegrationTests/bin
 /NirojTemplate.Library/tests/NirojTemplate.Library.Infrastructure.IntegrationTests/obj
+/obj/Debug/net6.0
+/obj/Release/net6.0
