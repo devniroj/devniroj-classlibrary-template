@@ -7,13 +7,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{55C6DBB7-BDA
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E530842D-1151-42B7-8D77-CD895DCCB3FA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.UnitTests", "tests\NirojTemplate.Library.Application.UnitTests\Application.UnitTests.csproj", "{39DD6429-B46C-42B4-B882-049063E4C654}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.UnitTests", "tests\Application.UnitTests\Application.UnitTests.csproj", "{39DD6429-B46C-42B4-B882-049063E4C654}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.FunctionalTests", "tests\NirojTemplate.Library.Application.FunctionalTests\Application.FunctionalTests.csproj", "{22619EC9-FF57-47D4-97C4-A8E816C8BF27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.FunctionalTests", "tests\Application.FunctionalTests\Application.FunctionalTests.csproj", "{22619EC9-FF57-47D4-97C4-A8E816C8BF27}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.UnitTests", "tests\NirojTemplate.Library.Domain.UnitTests\Domain.UnitTests.csproj", "{FE127A70-70D8-4F9E-AFA7-71E209D4A9F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.UnitTests", "tests\Domain.UnitTests\Domain.UnitTests.csproj", "{FE127A70-70D8-4F9E-AFA7-71E209D4A9F0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.IntegrationTests", "tests\NirojTemplate.Library.Infrastructure.IntegrationTests\Infrastructure.IntegrationTests.csproj", "{22F94106-4648-47A9-BF09-FAD5402E9837}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.IntegrationTests", "tests\Infrastructure.IntegrationTests\Infrastructure.IntegrationTests.csproj", "{22F94106-4648-47A9-BF09-FAD5402E9837}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{A6D59469-DDCA-4AFF-A476-89375F33460F}"
 EndProject

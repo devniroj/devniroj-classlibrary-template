@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vLto6Zr9OONxemTErtkRqbTSMjDKnZzcO6BDz8m/ZmfYwUA3HYLKvvyroAWrR5ygEJwkLz2IdoTDxFglX3CrJg==",
+  "dgSpecHash": "qH7HI+PBlSsnPHLPBFfoJRq8M438IRi6nf4s0/q8+AYfP7VJFSFbMzV4Fhl8zeesugmyUiJVw2+q5VFRbBCosw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\snero\\source\\repos\\devniroj-classlibrary-template\\NirojTemplate.Library\\tests\\NirojTemplate.Library.Infrastructure.IntegrationTests\\Infrastructure.IntegrationTests.csproj",
+  "projectFilePath": "C:\\Users\\snero\\source\\repos\\devniroj-classlibrary-template\\NirojTemplate.Library\\tests\\Infrastructure.IntegrationTests\\Infrastructure.IntegrationTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\snero\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\snero\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",

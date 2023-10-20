@@ -5523,11 +5523,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\snero\\source\\repos\\devniroj-classlibrary-template\\NirojTemplate.Library\\tests\\NirojTemplate.Library.Application.FunctionalTests\\Application.FunctionalTests.csproj",
+      "projectUniqueName": "C:\\Users\\snero\\source\\repos\\devniroj-classlibrary-template\\NirojTemplate.Library\\tests\\Application.FunctionalTests\\Application.FunctionalTests.csproj",
       "projectName": "NirojTemplate.Library.Application.FunctionalTests",
-      "projectPath": "C:\\Users\\snero\\source\\repos\\devniroj-classlibrary-template\\NirojTemplate.Library\\tests\\NirojTemplate.Library.Application.FunctionalTests\\Application.FunctionalTests.csproj",
+      "projectPath": "C:\\Users\\snero\\source\\repos\\devniroj-classlibrary-template\\NirojTemplate.Library\\tests\\Application.FunctionalTests\\Application.FunctionalTests.csproj",
       "packagesPath": "C:\\Users\\snero\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\snero\\source\\repos\\devniroj-classlibrary-template\\NirojTemplate.Library\\tests\\NirojTemplate.Library.Application.FunctionalTests\\obj\\",
+      "outputPath": "C:\\Users\\snero\\source\\repos\\devniroj-classlibrary-template\\NirojTemplate.Library\\tests\\Application.FunctionalTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
