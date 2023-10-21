@@ -25,3 +25,4 @@
 /NirojTemplate.Library/src/Web/Api/obj
 /NirojTemplate.Library/src/Web/Api/bin
 
+/obj/Debug/net6.0/nuget.assets.cache
