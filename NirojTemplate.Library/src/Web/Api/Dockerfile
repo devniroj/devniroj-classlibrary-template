@@ -10,6 +10,8 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
+COPY ["Directory.Packages.props", "."]
+COPY ["Directory.Build.props", "."]
 COPY ["src/Web/Api/Api.csproj", "src/Web/Api/"]
 RUN dotnet restore "src/Web/Api/Api.csproj"
 COPY . .
