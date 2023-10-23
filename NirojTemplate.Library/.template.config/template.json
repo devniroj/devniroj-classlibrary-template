@@ -11,5 +11,44 @@
     "identity": "DevNiroj.CleanArchitecture.Template.Library",
     "name": ".Net 6 clean architecture class library template",
     "shortName": "nirojlib",
-    "sourceName": "NirojTemplate.Library"
+  "sourceName": "NirojTemplate.Library",
+  "symbols": {
+    "ExcludeApi": {
+      "type": "parameter",
+      "datatype": "bool"
+    },
+    "ExcludeTests": {
+      "type": "parameter",
+      "datatype": "bool"
+    }
+  },
+  "sources": [
+    {
+      "source": "./",
+      "target": "./",
+      "exclude": [
+        ".template.config/**/*",
+        "templates/**/*",
+        "**/*.filelist",
+        "**/*.user",
+        "**/*.lock.json",
+        "*.nuspec"
+      ],
+      "modifiers": [
+        {
+          "condition": "(ExcludeApi)",
+          "exclude": [
+            "src/Web"
+          ]
+        },
+        {
+          "condition": "(ExcludeApi)",
+          "exclude": [
+            "src/Web"
+          ]
+        }
+      ]
+    }
+   
+  ]
 }
