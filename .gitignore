@@ -69,3 +69,4 @@ obj
 /NirojTemplate.Library/tests/Infrastructure.IntegrationTests/obj/Release/net6.0/Infrastructure.IntegrationTests.assets.cache
 /NirojTemplate.Library/tests/Infrastructure.IntegrationTests/obj/Release/net6.0/Infrastructure.IntegrationTests.csproj.AssemblyReference.cache
 /NirojTemplate.Library/tests/Infrastructure.IntegrationTests/obj/Release/net6.0/Infrastructure.IntegrationTests.GeneratedMSBuildEditorConfig.editorconfig
+/NirojTemplate.Library.1.0.1.nupkg
