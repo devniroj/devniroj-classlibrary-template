@@ -13,13 +13,15 @@
     "shortName": "nirojlib",
   "sourceName": "NirojTemplate.Library",
   "symbols": {
-    "ExcludeApi": {
+    "excludeApi": {
       "type": "parameter",
-      "datatype": "bool"
+      "datatype": "bool",
+      "defaultValue": "false"
     },
-    "ExcludeTests": {
+    "excludeTests": {
       "type": "parameter",
-      "datatype": "bool"
+      "datatype": "bool",
+      "defaultValue": "false"
     }
   },
   "sources": [
@@ -36,15 +38,15 @@
       ],
       "modifiers": [
         {
-          "condition": "(ExcludeApi)",
+          "condition": "(excludeApi)",
           "exclude": [
-            "src/Web"
+            "src/Web/**/*"
           ]
         },
         {
-          "condition": "(ExcludeApi)",
+          "condition": "(excludeTests)",
           "exclude": [
-            "src/Web"
+            "tests/**/*"
           ]
         }
       ]
