@@ -1,5 +1,5 @@
-namespace NirojTemplate.Library.Application.FeatureName.Commands.CleanArchitectureUseCase;
+namespace NirojTemplate.Library.Application.FeatureName.HandlerName.Commands;
 
-public record CleanArchitectureUseCaseCommand : IRequest<object>
+public record HandlerNameCommand : IRequest<object>
 {
 }

@@ -1,4 +1,4 @@
-﻿namespace NirojTemplate.Library.Application.FeatureName.Commands.CleanArchitectureUseCase;
+﻿namespace NirojTemplate.Library.Application.FeatureName.HandlerName.Commands;
 
 public class HandlerNameCommandValidator : AbstractValidator<HandlerNameCommand>
 {
