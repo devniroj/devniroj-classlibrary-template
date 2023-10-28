@@ -19,8 +19,8 @@
     "DefaultNamespace": {
       "type": "bind",
       "binding": "msbuild:RootNamespace",
-      "replaces": "CleanArchitecture.Application",
-      "defaultValue": "CleanArchitecture.Application"
+      "replaces": "NirojTemplate.Library.Application",
+      "defaultValue": "NirojTemplate.Library.Application"
     },
     "featureName": {
       "type": "parameter",
