@@ -18,9 +18,9 @@
   "symbols": {
     "DefaultNamespace": {
       "type": "bind",
-      "binding": "msbuild:RootNamespace",
-      "replaces": "NirojTemplate.Library.Application",
-      "defaultValue": "NirojTemplate.Library.Application"
+      "binding": "$(RootNamespace)",
+      "replaces": "NirojTemplate.Library",
+      "defaultValue": "NirojTemplate.Library"
     },
     "featureName": {
       "type": "parameter",
@@ -47,11 +47,11 @@
     },
     "createCommand": {
       "type": "computed",
-      "value": "(useCaseType == \"command\")"
+      "value": "(handlerType == \"command\")"
     },
     "createQuery": {
       "type": "computed",
-      "value": "(useCaseType == \"query\")"
+      "value": "(handlerType == \"query\")"
     },
     "returnType": {
       "type": "parameter",
