@@ -1,5 +1,8 @@
 using Api;
 using Api.Endpoints;
+using NirojTemplate.Library.Application;
+using NirojTemplate.Library.Infrastructure;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,6 +10,8 @@ var builder = WebApplication.CreateBuilder(args);
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddApplicationServices();
+builder.Services.AddInfrastructureServices();
 
 var app = builder.Build();
 
