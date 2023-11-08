@@ -1,6 +1,6 @@
 namespace NirojTemplate.Library.Infrastructure.IntegrationTests
 {
-    public class UnitTest1
+    public class UnitTest1:IClassFixture<IntegrationTestWebApplicationFactory>
     {
         //test comment
         [Fact]
