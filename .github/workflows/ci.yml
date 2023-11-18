@@ -32,7 +32,7 @@ jobs:
         run: dotnet pack --configuration Release  nuget.csproj
 
       - name: Publish the package to Nuget
-        run: dotnet nuget push --api-key ${{secrets.NUGET_TOKEN}} --source ${{secrets.NUGET_URL}}  ${{ github.workspace }}/*.nupkg
+        run: dotnet nuget push --api-key ${{secrets.NUGET_TOKEN}} --source ${{secrets.NUGET_URL}}  ${{ github.workspace }}\nirojlib.*.nupkg
      
 
       
