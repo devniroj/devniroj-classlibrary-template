@@ -5,8 +5,6 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{55C6DBB7-BDAE-4804-B5C5-6AF82A411282}"
 EndProject
-
-#if (excludeTests)
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E530842D-1151-42B7-8D77-CD895DCCB3FA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.UnitTests", "tests\Application.UnitTests\Application.UnitTests.csproj", "{39DD6429-B46C-42B4-B882-049063E4C654}"
@@ -17,20 +15,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.UnitTests", "tests\D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.IntegrationTests", "tests\Infrastructure.IntegrationTests\Infrastructure.IntegrationTests.csproj", "{22F94106-4648-47A9-BF09-FAD5402E9837}"
 EndProject
-#endif
-
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{A6D59469-DDCA-4AFF-A476-89375F33460F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{3569BFA8-A6A4-4E72-B221-2CD1A8EF5B4D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{DD5AB536-72D6-4AC3-B81C-6699898A5582}"
 EndProject
-
-#if (excludeApi)
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{587E499A-BE7F-4F57-AE1A-DAF004711266}"
 EndProject
-#endif
-
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "src\Application\Application\Application.csproj", "{890E7109-7697-4548-B755-EA83B1C98FC0}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "src\Domain\Domain\Domain.csproj", "{FB757E06-52CC-43EE-96DD-736293854E9C}"
@@ -43,12 +35,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Directory.Packages.props = Directory.Packages.props
 	EndProjectSection
 EndProject
-
-#if (excludeApi)
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "src\Web\Api\Api.csproj", "{020F03B6-CD05-4C20-8E33-CB998C82832D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "src\Web\Api\Api.csproj", "{020F03B6-CD05-4C20-8E33-CB998C82832D}"
 EndProject
-#endif
-
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "src\Web\ConsoleApp\ConsoleApp.csproj", "{DE7D1D80-184D-4496-8FF6-3ED3689623C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +77,10 @@ Global
 		{020F03B6-CD05-4C20-8E33-CB998C82832D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{020F03B6-CD05-4C20-8E33-CB998C82832D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{020F03B6-CD05-4C20-8E33-CB998C82832D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE7D1D80-184D-4496-8FF6-3ED3689623C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE7D1D80-184D-4496-8FF6-3ED3689623C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE7D1D80-184D-4496-8FF6-3ED3689623C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE7D1D80-184D-4496-8FF6-3ED3689623C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -104,6 +98,7 @@ Global
 		{FB757E06-52CC-43EE-96DD-736293854E9C} = {3569BFA8-A6A4-4E72-B221-2CD1A8EF5B4D}
 		{AD95C9D3-5AB8-4B9B-8A03-F2926549B314} = {DD5AB536-72D6-4AC3-B81C-6699898A5582}
 		{020F03B6-CD05-4C20-8E33-CB998C82832D} = {587E499A-BE7F-4F57-AE1A-DAF004711266}
+		{DE7D1D80-184D-4496-8FF6-3ED3689623C2} = {587E499A-BE7F-4F57-AE1A-DAF004711266}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FDE3D0C0-7133-470D-AC36-02E3DDD44AD6}
