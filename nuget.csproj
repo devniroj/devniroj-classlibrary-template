@@ -7,16 +7,18 @@
     <EnableDefaultItems>false</EnableDefaultItems>
     <NoDefaultExcludes>true</NoDefaultExcludes>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <PackageOutputPath>.</PackageOutputPath>  
+    <PackageOutputPath>.</PackageOutputPath>
+	 <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
     <Content Include="NirojTemplate.Library\**" Exclude="**\bin\**\*;**\obj\**\*" />
+	<None Include="README.md" Pack="true" PackagePath="\"/>
   </ItemGroup>
 
   <PropertyGroup>
     <PackageType>Template</PackageType>
-    <Version>1.0.3</Version>
+    <Version>1.0.4</Version>
     <PackageId>nirojlib</PackageId>
     <Title>ASP.NET Core Template</Title>
     <Company>DevNiroj</Company>
