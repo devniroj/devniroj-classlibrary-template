@@ -15,7 +15,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      
+      - name: show pipeline number
+        run: echo "working directory ${{GITHUB_WORKSPACE}}"
+             
       - name: Setup .NET Core SDK ${{ matrix.dotnet-version }}
         uses: actions/setup-dotnet@v3
         with:
