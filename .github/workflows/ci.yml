@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - name: show pipeline number
+      - name: show base path
         run: echo ${{ github.workspace }} 
              
       - name: Setup .NET Core SDK ${{ matrix.dotnet-version }}
@@ -32,7 +32,7 @@ jobs:
         run: dotnet pack --configuration Release  nuget.csproj
 
       - name: Publish the package to Nuget
-        run: dotnet nuget push --api-key ${{secrets.NUGET_TOKEN}} --source ${{secrets.NUGET_URL}}  bin/Release/net6.0/*.nupkg
+        run: dotnet nuget push --api-key ${{secrets.NUGET_TOKEN}} --source ${{secrets.NUGET_URL}}  ${{ github.workspace }}/bin/Release/net6.0/*.nupkg
      
 
       
