@@ -16,9 +16,9 @@
   "sourceName": "HandlerName",
   "preferNameDirectory": false,
   "symbols": {
-    "DefaultNamespace": {
+    "defaultNamespace": {
       "type": "bind",
-      "binding": "$(RootNamespace)",
+      "binding": "msbuild:RootNamespace",
       "replaces": "NirojTemplate.Library",
       "defaultValue": "NirojTemplate.Library"
     },
