@@ -5,7 +5,6 @@ on: [push]
 env:
   DOTNET_SKIP_FIRST_TIME_EXPERIENCE: 1
   DOTNET_NOLOGO: true
-  NuGetDirectory: ${{ github.workspace}}/nuget
 
 jobs:
   publish:
@@ -21,34 +20,19 @@ jobs:
         uses: actions/setup-dotnet@v3
         with:
           dotnet-version: ${{ matrix.dotnet-version }}
+        env:
+          NUGET_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
       - name: Install dependencies
         run: dotnet restore
 
       - name: Build
-        run: dotnet build --configuration Release
+        run: dotnet build --configuration Release nuget.csproj
 
       - name: publish
-        run: dotnet pack --configuration Release  --output ${{ env.NuGetDirectory }}
+        run: dotnet pack --configuration Release  nuget.csproj
 
-      # Publish the NuGet package as an artifact, so they can be used in the following jobs
-      - uses: actions/upload-artifact@v3
-        with:
-          name: nuget
-          if-no-files-found: error
-          retention-days: 7
-          path: ${{ env.NuGetDirectory }}/*.nupkg
+      - name: Publish the package to Nuget
+        run: dotnet nuget push bin/Release/net6.0/*.nupkg
+     
 
-      - name: Setup JFrog CLI
-        uses: jfrog/setup-jfrog-cli@v3.4.0
-
-      - name: Set environment variables
-        env:
-         JF_URL: ${{ secrets.JFROG_URL }}
-         JF_ACCESS_TOKEN: ${{ secrets.JFROG_ACCESS_TOKEN }}
-        run: echo "${{env.working-directory}}"
-
-      - name: Publish to jfrog
-        run: |
-          foreach($file in (Get-ChildItem "${{ env.NuGetDirectory }}" -Recurse -Include *.nupkg)) {
-              dotnet nuget push $file --api-key "${{secrets.JFROG_EMAIL}}":"${{ secrets.JFROG_ACCESS_TOKEN }}" --source https://devnero.jfrog.io/artifactory/api/nuget/jfrog-class-library-nuget-local --skip-duplicate
-          }
+      
