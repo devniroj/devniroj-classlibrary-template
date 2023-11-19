@@ -1,10 +1,13 @@
+using NirojTemplate.Library.Infrastructure.IntegrationTests.Configurations;
+
 namespace NirojTemplate.Library.Infrastructure.IntegrationTests
 {
-    public class UnitTest1:IClassFixture<IntegrationTestWebApplicationFactory>
+    public class UnitTest1:IClassFixture<InjectionFixture>
     {
-        public UnitTest1()
+        private readonly InjectionFixture _injection;
+        public UnitTest1(InjectionFixture injection)
         {
-
+            _injection = injection;
         }
         //test comment
         [Fact]
