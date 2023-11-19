@@ -13,10 +13,21 @@
     "shortName": "nirojlib",
   "sourceName": "NirojTemplate.Library",
   "symbols": {
-    "excludeApi": {
+    "clientApp": {
       "type": "parameter",
-      "datatype": "bool",
-      "defaultValue": "false"
+      "datatype": "choice",
+      "isRequired": true,
+      "choices": [
+        {
+          "choice": "api",
+          "description": "Create a .net6 api project"
+        },
+        {
+          "choice": "query",
+          "description": "Create a .net6 console app project"
+        }
+      ],
+      "description": "The type of client project"
     },
     "excludeTests": {
       "type": "parameter",
