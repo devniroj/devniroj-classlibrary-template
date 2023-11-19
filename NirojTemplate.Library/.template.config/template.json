@@ -19,11 +19,15 @@
       "isRequired": true,
       "choices": [
         {
+          "choice": "none",
+          "description": "Create a .net6 api project"
+        },
+        {
           "choice": "api",
           "description": "Create a .net6 api project"
         },
         {
-          "choice": "query",
+          "choice": "console",
           "description": "Create a .net6 console app project"
         }
       ],
@@ -49,9 +53,21 @@
       ],
       "modifiers": [
         {
-          "condition": "(excludeApi)",
+          "condition": "(clientApp==\"none\")",
           "exclude": [
-            "src/Web/**/*"
+            "src/Web"
+          ]
+        },
+        {
+          "condition": "(clientApp==\"api\")",
+          "exclude": [
+            "src/Web/ConsoleApp"
+          ]
+        },
+        {
+          "condition": "(clientApp==\"console\")",
+          "exclude": [
+            "src/Web/Api"
           ]
         },
         {
